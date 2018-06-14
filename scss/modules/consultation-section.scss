@@ -1,0 +1,60 @@
+.consultation-section {
+  width: 100%;
+  background-color: black;
+  background-image: url("../img/Rectangle4.png") ;
+  height: 596px;
+  color: #FFFFFF;
+  ;
+
+  .consultation-section__component {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .consultation-section__component--headline{
+      width: 925px;
+      font-size: 40px;
+      font-weight: 700;
+      line-height: 48px;
+      text-align: center;
+      padding-bottom: 32px;
+
+    }
+
+
+
+
+    .consultation-section__component--buttons{
+      display: flex;
+      flex-direction: row;
+      height: 56px;
+      width: 342px;
+      align-items: center;
+
+      div:first-child {
+        display: flex;
+        height: 56px;
+        width: 188px;
+        background-color: #6A4AEA;
+        font-size: 16px;
+        font-weight: 700;
+        letter-spacing: 0.5px;
+        line-height: 24px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        text-shadow: -1px -1px 0 0 rgba(0,0,0,0.11);
+
+      }
+      span{
+        padding: 0 24px;
+      }
+      div:last-child {
+        font-weight: 700;
+        border-bottom: #6A4AEA solid 2px;
+        padding: 5px 0;
+      }
+    }
+  }
+}
