@@ -1,0 +1,39 @@
+.map-section{
+  width: 1900px;
+  height: 840px;
+  background-image: url("../img/location-berlin.png");
+  background-position: center;
+  margin-bottom: 80px;
+
+  .map-section__component {
+    flex-direction: column;
+    align-items: center;
+
+
+    .map-section__component--mega {
+      /* height: 48px;
+       width: 744px;*/
+      color: #1C2954;
+      font-size: 40px;
+      font-weight: 500;
+      line-height: 48px;
+      text-align: center;
+      margin-top: 243px;
+      margin-bottom: 16px;
+
+    }
+
+    .map-section__component--partner {
+      /*
+      height: 28px;	width: 744px;
+      */
+      color: #676E82;
+      /*
+      font-family: "Museo Sans";
+      */
+      font-size: 20px;
+      line-height: 28px;
+      text-align: center;
+    }
+  }
+}
