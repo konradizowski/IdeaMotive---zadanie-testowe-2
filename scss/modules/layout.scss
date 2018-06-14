@@ -34,21 +34,28 @@ body {
 
 
 @media screen  and (max-width: 668px) {
-
-  .container {
+  body {
     width: auto;
     margin: 0 auto;
-    height: 100%;
-  }
 
+    .container {
+      width: auto;
+      margin: 0 auto;
+      height: 100%;
+    }
+  }
 }
 
 
 @media screen  and (min-width: 668px) and (max-width: 1054px) {
-
-  .container {
+  body {
     width: auto;
     margin: 0 auto;
-    height: 100%;
+
+    .container {
+      width: auto;
+      margin: 0 auto;
+      height: 100%;
+    }
   }
 }
