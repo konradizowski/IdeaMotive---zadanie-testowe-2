@@ -40,7 +40,6 @@
   .map-section__data {
     background-color: #FFFFFF;
     z-index: 1;
-    justify-content: space-between;
 
 
 
@@ -53,23 +52,40 @@
     .map-section__data--schedule {
       padding-top: 104px;
       padding-right: 76px;
-      p {
+      display: flex;
+      white-space:nowrap;
+      width: 212px;
 
+
+      .schedule-legend{
+        display: flex;
         color: #6A4AEA;
         font-size: 16px;
         line-height: 24px;
         font-weight: 700;
-
-
-        span {
-          color: rgba(0,0,0,0.87);
-          font-size: 16px;
-          line-height: 24px;
-          font-weight: 700;
-
+        flex-direction: column;
+        span:last-child {
+          padding-top: 24px;
         }
-
       }
+
+      .schedule-info{
+        display: flex;
+        color: rgba(0,0,0,0.87);
+        font-size: 16px;
+        line-height: 24px;
+        font-weight: 700;
+        flex-direction: column;
+        padding-left: 24px;
+        span:last-child {
+          padding-top: 24px;
+        }
+      }
+
+
+    }
+
+
 
 
     }
@@ -81,6 +97,7 @@
       padding-top: 104px;
       text-align: justify;
       padding-right: 96px;
+      align-self: right;
 
 
       span {
@@ -90,7 +107,7 @@
         font-weight: 700;
       }
 
+
     }
   }
 
-}
