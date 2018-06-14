@@ -1,5 +1,6 @@
 
-section, header, footer { box-sizing: border-box;
+section, header, footer {
+  box-sizing: border-box;
   padding: 0;
   width: 100%;
 }
@@ -11,6 +12,15 @@ section, header, footer { box-sizing: border-box;
   display: flex;
 }
 
+.col-2 {
+  width: 168px;
+}
+
+.col-5 {
+  width: 456px;
+
+}
+
 .col-8 {
   width: 744px;
 }
@@ -19,17 +29,6 @@ body { font-family: 'Montserrat', sans-serif;
 }
 
 
-.column {
-  text-decoration: none;
-
-}
-
-.col-2-layout {
-  height: 100%;
-  display: flex;
-}
-
-.col-2-layout .column { width: calc(50%- 2px); }
 
 @media screen  and (max-width: 668px) {
 
@@ -37,20 +36,6 @@ body { font-family: 'Montserrat', sans-serif;
     width: auto;
     margin: 0 auto;
     height: 100%;
-  }
-
-
-  body { font-family: "Raleway", sans-serif; }
-
-
-  .column {
-    text-decoration: none;
-  }
-
-  .col-2-layout, .col-3-layout, .col-4-layout {
-    height: 100%;
-    display: flex;
-    flex-direction: column;
   }
 
 }
@@ -63,18 +48,4 @@ body { font-family: 'Montserrat', sans-serif;
     margin: 0 auto;
     height: 100%;
   }
-
-
-  body { font-family: "Raleway", sans-serif; }
-
-
-  .column {
-    text-decoration: none;
-  }
-
-  .col-2-layout, .col-3-layout, .col-4-layout {
-    height: 100%;
-    display: flex;
-  }
-
 }

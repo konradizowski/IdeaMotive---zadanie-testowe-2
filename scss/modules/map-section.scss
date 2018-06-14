@@ -3,16 +3,17 @@
   height: 840px;
   background-image: url("../img/location-berlin.png");
   background-position: center;
-  margin-bottom: 80px;
+  display: flex;
+  flex-direction: column;
 
   .map-section__component {
     flex-direction: column;
     align-items: center;
+    padding-bottom: 200px;
 
 
     .map-section__component--mega {
-      /* height: 48px;
-       width: 744px;*/
+      height: 48px;
       color: #1C2954;
       font-size: 40px;
       font-weight: 500;
@@ -24,10 +25,9 @@
     }
 
     .map-section__component--partner {
-      /*
-      height: 28px;	width: 744px;
-      */
+      height: 28px;
       color: #676E82;
+      padding-bottom: 200px;
       /*
       font-family: "Museo Sans";
       */
@@ -36,4 +36,61 @@
       text-align: center;
     }
   }
+
+  .map-section__data {
+    background-color: #FFFFFF;
+    z-index: 1;
+    justify-content: space-between;
+
+
+
+    .map-section__data--globe {
+      padding-left: 96px;
+      margin-right: 24px;
+      padding-top: 80px;
+    }
+
+    .map-section__data--schedule {
+      padding-top: 104px;
+      padding-right: 76px;
+      p {
+
+        color: #6A4AEA;
+        font-size: 16px;
+        line-height: 24px;
+        font-weight: 700;
+
+
+        span {
+          color: rgba(0,0,0,0.87);
+          font-size: 16px;
+          line-height: 24px;
+          font-weight: 700;
+
+        }
+
+      }
+
+
+    }
+    .map-section__data--description {
+      color: rgba(0,0,0,0.87);
+      /*font-family: "Museo Sans";*/
+      font-size: 16px;
+      line-height: 24px;
+      padding-top: 104px;
+      text-align: justify;
+      padding-right: 96px;
+
+
+      span {
+        color: rgba(0,0,0,0.87);
+        font-size: 16px;
+        line-height: 24px;
+        font-weight: 700;
+      }
+
+    }
+  }
+
 }
